@@ -16,3 +16,20 @@
     opacity: 0.9;
     font-family: "Epunda Slab", serif;
 }
+.about-head{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Epunda Slab", serif;
+}
+.about-para{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.9;
+    font-family: "Epunda Slab", serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
