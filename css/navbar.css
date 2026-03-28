@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(190, 61, 42,0.2);
+    background-color: rgba(190, 61, 42,0.2);
 }
 .bg-img-index{
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./../images/bg-img-home.jpg);
@@ -55,4 +55,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     color: white;
+}
+.nav-link:hover{
+    color:#F5C45E;
 }

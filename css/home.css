@@ -16,10 +16,12 @@
     opacity: 0.9;
     font-family: "Epunda Slab", serif;
 }
+
+/* About Section */
 .about-head{
     margin-top: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     font-family: "Epunda Slab", serif;
 }
@@ -32,4 +34,24 @@
     padding: 30px;
     background-color: aliceblue;
     border-radius: 20px;
+}
+.about-section-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+   
+}
+.about-section-first{
+   position: relative;
+   width: 800px;
+  
+}
+.about-section-second{
+ position: absolute; 
+ top:-50px;   
+ right: -280px;
+ border-radius: 10px;
+ border: 1px solid gray;
+
 }

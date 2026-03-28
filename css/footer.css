@@ -1,0 +1,26 @@
+.footer-container{
+    background-color: rgba(87, 72, 70, 0.7) ; 
+    height: 200px;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.footer-main-name{
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+}
+.footer-quick-links{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    gap: 10px;
+}
+.footer-quick-links:hover{
+    color: #F5C45E;
+}
