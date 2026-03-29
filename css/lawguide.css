@@ -62,3 +62,17 @@
 .card h3{
     color:white;
 }
+@media screen and (max-width:768px){
+    .lawguide-head{
+        font-size: 20px; 
+    }
+.input-head-info{
+    padding: 10px 10px 10px 5px;
+    width: 250px;
+    font-size: 14px;
+}
+.btn-search{
+    font-size: 14px;
+    padding: 8px 8px 8px 2px; 
+}
+}

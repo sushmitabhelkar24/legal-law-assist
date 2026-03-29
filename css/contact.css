@@ -66,3 +66,39 @@
 .head-contact{
     color:#F5C45E;
 }
+@media screen and (max-width:768px){
+    .contact-head{
+    margin-top: 120px;
+    font-size: 18px;
+}
+.contact-para{
+    font-size: 14px;
+}
+.contact-form{
+    padding: 30px 0px 10px 0px;
+    border-radius: 16px;
+    width:100% ;
+}
+.input-form{
+    width: 280px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.input-file{
+    font-size: 12px;
+    margin-left: 50px;
+}
+.btn{
+    padding: 10px 12px;
+    font-size: 12px;
+}
+.contact-section-row{
+    flex-direction: column;
+    justify-content:none;
+    gap: 20px;
+}
+.contact-icon{
+    height: 14px;
+}
+}

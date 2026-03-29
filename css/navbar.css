@@ -60,5 +60,7 @@ body{
     color:#F5C45E;
 }
 @media screen and (max-width:768px){
-    
+    .bg-img-index{
+    height: 80vh;
+}
 }
