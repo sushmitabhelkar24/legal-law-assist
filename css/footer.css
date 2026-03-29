@@ -3,7 +3,6 @@
     height: 180px;
     padding:10px 0px 50px 0px;
     margin-top: 50px;
-    
 }
 .footer-section{
     display: flex;
@@ -27,6 +26,7 @@
 }
 .icon-align{
     margin-right: 10px;
+    height: 20px;
 }
 .footer-quick-links{
     text-decoration: none;
@@ -53,4 +53,32 @@
     font-weight: 700;
     opacity: 0.9;
     font-family: "Epunda Slab", serif;
+}
+@media screen and (max-width:768px){
+    .footer-container{
+     height: auto;
+     padding-left: 30px;
+}
+.footer-section{
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-main-name{
+    font-size: 15px;
+}
+.icon-align{
+    margin-right: 8px;
+    height: 18px;
+}
+.footer-quick-links{
+   font-size: 15px;
+}
+.copyright-sector{
+  font-size: 14px; 
+  padding-top: 20px;
+}
+.general-para-1{
+    font-size: 16px;
+}
+    
 }
