@@ -1,1 +1,64 @@
+.section{
+    margin-top: 120px;
+}
 
+.lawguide-head{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Epunda Slab", serif;
+    text-align: center;
+}
+.search-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input-head-info{
+    padding: 14px 14px 14px 5px;
+    width: 900px;
+    border-radius: 5px;
+    border: none;
+    background-color: gray;
+    display: block;
+    margin: 10px auto;
+    color:white;
+    font-size: 20px;
+}
+.input-head-info::placeholder {
+    color: white;
+    opacity: 1; 
+}
+.btn-search{
+     color:white;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #102E50;
+    padding: 12px 12px 12px 5px;
+    border-radius: 5px;
+}
+
+.section-container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+    margin: 50px 18px;
+}
+.card{
+    background-color: rgba(190, 61, 42,0.7);
+    width: 310px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+.card p{
+    
+    font-weight: 600;
+}
+.card strong{
+    color: #F5C45E;
+}
+.card h3{
+    color:white;
+}
