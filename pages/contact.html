@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -56,32 +56,91 @@
     </div>
 
     <!-- Conatct form -->
-     <section class="contact-form-section">
+    <section class="contact-form-section">
       <h2 class="contact-head">Contact Us</h2>
-      <p class="contact-para">If you have any questions or need assistance, feel free to reach out to us.</p>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required class="input-form" />
-        <input type="email" placeholder="Your Email" required  class="input-form" />
-        <textarea placeholder="Your Message" required class="input-form"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <p class="contact-para">
+        If you have any questions or need assistance, feel free to reach out to
+        us.
+      </p>
+      <div class="contact-section-row">
+          <div>
+             <form class="contact-form">
+        <input
+          type="text"
+          placeholder="Your Name"
+          required
+          class="input-form"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          required
+          class="input-form"
+        />
+        <textarea
+          placeholder="Your Message"
+          required
+          class="input-form"
+        ></textarea>
+          <input
+          type="date"
+          placeholder="Your Date"
+          required
+          class="input-form"
+        />
+        <select class="input-form">
+          <option>Select law Type</option>  
+          <option value="criminal-law">Criminal Law</option>
+          <option value="family-law">Family Law</option>
+          <option value="corporate-law">Corporate Law</option>
+          <option value="intellectual-property-law">Intellectual Property Law</option>
+          <option value="environmental-law">Environmental Law</option>
+          <option value="human-rights-law">Human Rights Law</option>
+          <option value="tax-law">Tax Law</option>
+          <option value="immigration-law">Immigration Law</option>
+          <option value="cyber-law">Cyber Law</option>
+          <option value="banking-finance-law">Banking and Finance Law</option>
+          <option value="consumer-law">Consumer Law</option>
+          <option value="labour-employment-law">
+            Labour and Employment Law
+          </option>
+        </select>
+        <lable for="file-img" class="input-file"
+          >Upload Related Documents:
+          <input id="file-img" type="file" accept="image/*" class="input-form"
+        /></lable>
+        <button type="submit" class="btn">Send Message</button>
+             </form>
+          </div>
+          <div class="contact-info">
 
-    <!-- Contact Section -->
-    <!-- <div class="contact-section">
-      <h2>Contact Us</h2>
-      <p>If you have any questions or need assistance, feel free to reach out to us.</p>
-      <div class="contact-info">
+        <div>
+            <h3>No Consultancy Charged</h3>
+            <ul>
+                   <li class="head-contact">Documents Privacy</li>
+                   <li class="head-contact">No hidden service fees</li>
+                   <li class="head-contact">Transparent advocate contact details</li>
+            </ul>
+        </div>    
+            <h3>Service 24/7</h3>
+       
         <div class="contact-item">
-          <img src="./../images/email.svg" alt="Email Icon" class="contact-icon" />
-          <span>info@legallawassist.com</span>
+          <img src="./../images/mail.svg" alt="Email Icon" class="contact-icon" />
+          <a href="mailto:legallawassist@gmail.com" class="footer-quick-links">legallawassist@gmail.com</a>
         </div>
         <div class="contact-item">
           <img src="./../images/phone.svg" alt="Phone Icon" class="contact-icon" />
-          <span>+1 (123) 456-7890</span>
+         <a href="tel:+91 8976545378" class="footer-quick-links">+91 8976545378</a>
         </div>
         <div class="contact-item">
           <img src="./../images/location.svg" alt="Location Icon" class="contact-icon" />
-          <span>123 Law Street, Legal City, LC 12345</span>
+         <a href="https://maps.google.com/?q=Mumbai,Maharashtra" target="_main" class="footer-quick-links">Mumbai,Maharashtra</a>
         </div>
+      
+         </div>
       </div>
-    </div> -->
+
+
+    </section>
+  </body>
+</html>
