@@ -63,6 +63,9 @@
     color:white;
 }
 @media screen and (max-width:768px){
+    .section{
+    margin-top: 70px;
+}
     .lawguide-head{
         font-size: 20px; 
     }

@@ -18,7 +18,7 @@ body{
     top:0;
     left:0;
     right: 0;
-    z-index: 100px;
+    z-index: 100;
     background-color:#102E50;
 }
 .logo-section{
@@ -59,8 +59,52 @@ body{
 .nav-link:hover{
     color:#F5C45E;
 }
+.checkbox-main{
+    display: none;
+}
+.hamburger-menu{
+    height: 26px;
+    display: none;
+    cursor: pointer;
+}
 @media screen and (max-width:768px){
     .bg-img-index{
     height: 80vh;
+}
+.logo{
+    height: 50px;
+}
+.logo-name{
+    font-size: 16px;
+}
+.nav-menu-section{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #102E50;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+.nav-icon{
+   height: 16px;
+   padding-right: 10px;
+}
+.nav-link{
+  font-size: 16px;
+}
+.hamburger-menu{
+    height: 18px;
+    display: block;
+}
+.checkbox-main:checked ~ .hamburger-menu{
+   content:'x';
+}
+.checkbox-main:checked ~ .nav-menu-section{
+    display:flex;
+  
 }
 }
